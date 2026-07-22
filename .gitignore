@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+.pytest_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Qt and PySide
+*.pro.user
+*.pro.user.*
+*.qrc.depends
+*.qm
+*.qsb
+*.jsc
+*.pyproject.user
+ui_*.py
+qrc_*.py
+
+# Operating system files
+.DS_Store
+Thumbs.db
