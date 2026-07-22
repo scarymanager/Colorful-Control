@@ -8,6 +8,9 @@ version = "0.1.0"
 description = "A cross-platform RGB keyboard control application for Colorful and Clevo laptops."
 readme = "README.md"
 requires-python = ">=3.12"
+dependencies = [
+    "pydantic>=2.0",
+]
 license = { file = "LICENSE" }
 authors = [
     { name = "Colorful Control Contributors" },
